@@ -1,6 +1,6 @@
-package com.kchmielewski.spring.counter.web;
+package com.kchmielewski.java.spring.counter.web;
 
-import com.kchmielewski.spring.counter.logic.VisitCounterService;
+import com.kchmielewski.java.spring.counter.logic.VisitCounterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

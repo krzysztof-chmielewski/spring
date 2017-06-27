@@ -1,9 +1,9 @@
-package com.kchmielewski.spring.counter.logic;
+package com.kchmielewski.java.spring.counter.logic;
 
-import com.kchmielewski.spring.counter.model.ApplicationCounter;
-import com.kchmielewski.spring.counter.model.Counter;
-import com.kchmielewski.spring.counter.model.SessionCounter;
-import com.kchmielewski.spring.counter.web.VisitCounterResponse;
+import com.kchmielewski.java.spring.counter.model.ApplicationCounter;
+import com.kchmielewski.java.spring.counter.model.Counter;
+import com.kchmielewski.java.spring.counter.model.SessionCounter;
+import com.kchmielewski.java.spring.counter.web.VisitCounterResponse;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
 

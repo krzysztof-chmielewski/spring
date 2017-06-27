@@ -1,6 +1,6 @@
-package com.kchmielewski.spring.core;
+package com.kchmielewski.java.spring.core;
 
-import com.kchmielewski.spring.config.Config;
+import com.kchmielewski.java.spring.config.Config;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;

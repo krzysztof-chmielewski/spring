@@ -1,6 +1,6 @@
-package com.kchmielewski.spring.config;
+package com.kchmielewski.java.spring.config;
 
-import com.kchmielewski.spring.counter.CounterConfig;
+import com.kchmielewski.java.spring.counter.CounterConfig;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 

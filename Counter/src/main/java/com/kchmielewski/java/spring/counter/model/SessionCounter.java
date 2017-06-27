@@ -1,4 +1,4 @@
-package com.kchmielewski.spring.counter.model;
+package com.kchmielewski.java.spring.counter.model;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;

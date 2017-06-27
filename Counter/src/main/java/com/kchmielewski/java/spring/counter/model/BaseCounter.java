@@ -1,11 +1,11 @@
-package com.kchmielewski.spring.counter.model;
+package com.kchmielewski.java.spring.counter.model;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class BaseCounter implements Counter {
+class BaseCounter implements Counter {
     private final AtomicInteger counter;
 
-    public BaseCounter(AtomicInteger counter) {
+    BaseCounter(AtomicInteger counter) {
         this.counter = counter;
     }
 

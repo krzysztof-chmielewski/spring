@@ -1,4 +1,4 @@
-package com.kchmielewski.spring.counter.web;
+package com.kchmielewski.java.spring.counter.web;
 
 public class VisitCounterResponse {
     private final int totalVisits;

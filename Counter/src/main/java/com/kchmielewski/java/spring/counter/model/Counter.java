@@ -1,4 +1,4 @@
-package com.kchmielewski.spring.counter.model;
+package com.kchmielewski.java.spring.counter.model;
 
 public interface Counter {
     int count();

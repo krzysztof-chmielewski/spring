@@ -1,4 +1,4 @@
-package com.kchmielewski.spring.counter;
+package com.kchmielewski.java.spring.counter;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Bean;
