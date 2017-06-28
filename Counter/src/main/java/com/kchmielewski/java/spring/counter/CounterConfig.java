@@ -8,6 +8,9 @@ import org.springframework.context.annotation.Scope;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Configuration for counter scope.
+ */
 @Configuration
 @ComponentScan(basePackageClasses = CounterConfig.class)
 public class CounterConfig {

@@ -8,4 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 class VisitCounterController(private val counterService: VisitCounterService) {
     @GetMapping(path = arrayOf(""))
     fun home() = counterService.visit()
+
+    @GetMapping(path = arrayOf("count"))
+    fun count() = counterService.count()
 }

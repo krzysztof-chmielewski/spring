@@ -2,7 +2,10 @@ package com.kchmielewski.java.spring.counter.model;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-class BaseCounter implements Counter {
+/**
+ * Skeleton implementation of the {@link Counter} interface.
+ */
+abstract class BaseCounter implements Counter {
     private final AtomicInteger counter;
 
     BaseCounter(AtomicInteger counter) {

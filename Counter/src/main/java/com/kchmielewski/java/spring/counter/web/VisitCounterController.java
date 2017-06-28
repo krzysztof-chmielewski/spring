@@ -19,4 +19,9 @@ public class VisitCounterController {
     public Visits home() {
         return counterService.visit();
     }
+
+    @GetMapping(path = "count")
+    public Visits count() {
+        return counterService.count();
+    }
 }
