@@ -1,10 +1,10 @@
-package com.kchmielewski.java.spring.counter.web;
+package com.kchmielewski.java.spring.counter.model;
 
-public class VisitCounterResponse {
+public class Visits {
     private final int totalVisits;
     private final int sessionVisits;
 
-    public VisitCounterResponse(int totalVisits, int sessionVisits) {
+    public Visits(int totalVisits, int sessionVisits) {
         this.totalVisits = totalVisits;
         this.sessionVisits = sessionVisits;
     }

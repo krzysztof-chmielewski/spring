@@ -11,7 +11,7 @@ interface Counter {
     fun visit(): Int
 }
 
-open class BaseCounter(val counter: AtomicInteger) : Counter {
+open class BaseCounter(private val counter: AtomicInteger) : Counter {
     override fun count() = counter.get()
 
     override fun visit() = counter.incrementAndGet()

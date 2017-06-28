@@ -3,7 +3,7 @@ package com.kchmielewski.java.spring.counter.logic;
 import com.kchmielewski.java.spring.counter.model.ApplicationCounter;
 import com.kchmielewski.java.spring.counter.model.Counter;
 import com.kchmielewski.java.spring.counter.model.SessionCounter;
-import com.kchmielewski.java.spring.counter.web.VisitCounterResponse;
+import com.kchmielewski.java.spring.counter.model.Visits;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Service;
 
@@ -17,13 +17,11 @@ public class VisitCounterService {
         applicationCounter = counter;
     }
 
-    public VisitCounterResponse count() {
-        return new VisitCounterResponse(applicationCounter.count(),
-                applicationContext.getBean(SessionCounter.class).count());
+    public Visits count() {
+        return new Visits(applicationCounter.count(), applicationContext.getBean(SessionCounter.class).count());
     }
 
-    public VisitCounterResponse visit() {
-        return new VisitCounterResponse(applicationCounter.visit(),
-                applicationContext.getBean(SessionCounter.class).visit());
+    public Visits visit() {
+        return new Visits(applicationCounter.visit(), applicationContext.getBean(SessionCounter.class).visit());
     }
 }
